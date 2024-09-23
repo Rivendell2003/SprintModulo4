@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android ">
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/fotopersonal" />
+
+    <TextView
+        android:id="@+id/name_text"
+        android:layout_toRightOf="@id/profile_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jonathan V. Apiolaza"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/contact_button"
+        android:layout_below="@id/profile_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contactar" />
+
+</RelativeLayout>

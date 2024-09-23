@@ -1,0 +1,102 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- iimagen de fondo que cubre toda la pantalla -->
+
+    <!-- Botón de WhatsApp -->
+
+    <!-- Cambié a fitCenter para evitar deformaciones -->
+
+    <!-- Botón de LinkedIn -->
+
+    <!-- Botón de GitHub -->
+
+    <!-- Botón de Correo Electrónico -->
+
+    <ImageView
+        android:id="@+id/background_image"
+        android:layout_width="412dp"
+        android:layout_height="735dp"
+        android:contentDescription="TODO"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fondotierramatrix"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <ImageButton
+        android:id="@+id/whatsapp_button"
+        android:layout_width="180dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="192dp"
+        android:background="?attr/selectableItemBackground"
+        android:contentDescription="@string/whatsapp_button"
+        android:scaleType="fitCenter"
+        android:src="@drawable/whatsappres"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/background_image"
+        tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/linkedin_button"
+        android:layout_width="180dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="60dp"
+        android:background="?attr/selectableItemBackground"
+        android:contentDescription="@string/linkedin_button"
+        android:scaleType="fitCenter"
+        android:src="@drawable/linkedinres"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/whatsapp_button" />
+
+    <ImageButton
+        android:id="@+id/github_button"
+        android:layout_width="180dp"
+        android:layout_height="85dp"
+        android:background="?attr/selectableItemBackground"
+        android:contentDescription="@string/github_button"
+        android:scaleType="fitCenter"
+        android:src="@drawable/githubres"
+        app:layout_constraintBottom_toTopOf="@+id/whatsapp_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/background_image"
+        app:layout_constraintVertical_bias="0.507" />
+
+    <ImageButton
+        android:id="@+id/email_button"
+        android:layout_width="180dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="24dp"
+        android:background="?attr/selectableItemBackground"
+        android:contentDescription="@string/email_button"
+        android:scaleType="fitCenter"
+        android:src="@drawable/outlookcorreores"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linkedin_button" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:text="@string/volver"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SprintModulo4</string>
+    <string name="contactar">Contactar</string>
+    <string name="jonathan_v_apiolaza">Jonathan V. Apiolaza</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="enviar_email">Enviar Email</string>
+    <string name="todo">TODO</string>
+    <string name="enviar_email1">Enviar Email</string>
+    <string name="linkedin1">LinkedIn</string>
+    <string name="whatsapp1">WhatsApp</string>
+    <string name="todo1">TODO</string>
+    <string name="whatsapp_button" />
+    <string name="email_button">botondecorreo</string>
+    <string name="github_button">botondegit</string>
+    <string name="linkedin_button">botondelinkedin\n</string>
+    <string name="estudiante_de_ingenier_a_en_sistemas_con_conocimientos_en_sql_java_kotlin_de_mente_curiosa_y_anal_tica">Estudiante de Ingeniería en Sistemas, con conocimientos en SQL, Java, Kotlin. De mente curiosa y analítica.</string>
+    <string name="todo3">TODO</string>
+    <string name="volver">Volver</string>
+</resources>

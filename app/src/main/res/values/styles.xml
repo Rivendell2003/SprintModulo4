@@ -1,0 +1,17 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Personaliza tu tema aquí -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Tema1">
+        <item name="android:layout_width">264dp</item>
+        <item name="android:layout_height">88dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_marginBottom">293dp</item>
+        <item name="android:rotation">0</item>
+        <item name="android:rotationY">0</item>
+    </style>
+</resources>
