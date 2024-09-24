@@ -2,9 +2,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:ignore="ExtraText">
 
-    <!-- lsa imagen de fondo -->
+    <!-- la imagen de fondo -->
+
+    <!-- la imagen de mi perfil -->
 
     <ImageView
         android:id="@+id/background_image"
@@ -32,6 +35,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/background_image"
         app:layout_constraintVertical_bias="0.671" />
+    <!-- recuadro de texto -->
 
     <TextView
         android:id="@+id/name_text"
@@ -48,12 +52,17 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <!-- aca empiezan los boton -->
+    <!-- boton de apagar -->
+
+
+    <!-- recuadro de texto con pequeña bio -->
 
     <Button
         android:id="@+id/call_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="84dp"
+        android:layout_marginBottom="140dp"
         android:text="@string/llamar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/contact_button"
@@ -79,10 +88,25 @@
         android:id="@+id/contact_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="76dp"
-        android:layout_marginBottom="84dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="140dp"
         android:text="@string/contactar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageButton
+        android:id="@+id/close_button"
+        style="@style/botonApagar2"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/botondecerrar"
+        android:scaleType="fitCenter"
+        android:src="@drawable/boton_apagar2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

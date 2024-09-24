@@ -14,4 +14,19 @@
         <item name="android:rotation">0</item>
         <item name="android:rotationY">0</item>
     </style>
+
+    <style name="botonApagar">
+        <item name="android:layout_width">94dp</item>
+        <item name="android:layout_height">91dp</item>
+        <item name="android:layout_marginBottom">32dp</item>
+        <item name="android:contentDescription">@string/close_app</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="botonApagar2">
+        <item name="android:layout_width">61dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:contentDescription">@string/close_app</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
 </resources>

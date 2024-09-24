@@ -45,12 +45,16 @@ public class ContactActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
-        // aca se configura el botón para volver al MainActivity
+        // boton para volver al MainActivity
         Button backButton = findViewById(R.id.back_button);
         backButton.setOnClickListener(v -> {
             Intent intent = new Intent(ContactActivity.this, MainActivity.class);
             startActivity(intent);
-            finish();  // aca se finaliza la actividad actual
+            finish();  // finaliza la actividad actual
         });
+
+        // botón para cerrar la aplicacion
+        ImageButton closeButton = findViewById(R.id.close_button);
+        closeButton.setOnClickListener(v -> finishAffinity()); // cierra la app actual
     }
 }

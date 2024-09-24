@@ -17,4 +17,10 @@
     <string name="estudiante_de_ingenier_a_en_sistemas_con_conocimientos_en_sql_java_kotlin_de_mente_curiosa_y_anal_tica">Estudiante de Ingeniería en Sistemas, con conocimientos en SQL, Java, Kotlin. De mente curiosa y analítica.</string>
     <string name="todo3">TODO</string>
     <string name="volver">Volver</string>
+    <string name="llamar">Llamar</string>
+    <string name="todo4">TODO</string>
+    <string name="close_app">cerrarApp</string>
+    <string name="botondeapagar">botonDeApagar</string>
+    <string name="backgroundimagen">backgroundimagen</string>
+    <string name="botondecerrar">botondecerrar</string>
 </resources>
